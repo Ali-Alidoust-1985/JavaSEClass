@@ -1,3 +1,5 @@
+package Test;
+
 public class Product {
     int serialNumber;
     String name;
