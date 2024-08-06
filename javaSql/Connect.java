@@ -16,9 +16,11 @@ public class Connect {
 
         //transaction * Report
         PreparedStatement preparedStatement = connection.prepareStatement(
-                "insert into person(id,name,family) values(2,'Ali','Alidoust')"
+                "insert into person(id,name,family) values(3,'Ahmad','Ahmadi')"
+//                Select * from PERSON;
         );
-        preparedStatement.execute();
+
+                preparedStatement.execute();
 
 
         //disconnect
