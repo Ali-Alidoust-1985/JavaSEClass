@@ -1,8 +1,7 @@
-package database;
+package mains;
 
 import da.UserDa;
 import Entity.User;
-import da.UserDa;
 
 import java.util.Scanner;
 
